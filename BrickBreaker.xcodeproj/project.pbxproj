@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074B34671EF3D0DA0055B678 /* AddSubjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B34661EF3D0DA0055B678 /* AddSubjects.swift */; };
 		07B344A11EF0E39800F50692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B344A01EF0E39800F50692 /* AppDelegate.swift */; };
 		07B344A31EF0E39800F50692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B344A21EF0E39800F50692 /* ViewController.swift */; };
 		07B344A61EF0E39800F50692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B344A41EF0E39800F50692 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		074B34661EF3D0DA0055B678 /* AddSubjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubjects.swift; sourceTree = "<group>"; };
 		07B3449D1EF0E39800F50692 /* BrickBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrickBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B344A01EF0E39800F50692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07B344A21EF0E39800F50692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				07B344A01EF0E39800F50692 /* AppDelegate.swift */,
 				07B344A21EF0E39800F50692 /* ViewController.swift */,
+				074B34661EF3D0DA0055B678 /* AddSubjects.swift */,
 				07B344A41EF0E39800F50692 /* Main.storyboard */,
 				07B344A71EF0E39800F50692 /* Assets.xcassets */,
 				07B344A91EF0E39800F50692 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				07B344A31EF0E39800F50692 /* ViewController.swift in Sources */,
 				07B344A11EF0E39800F50692 /* AppDelegate.swift in Sources */,
+				074B34671EF3D0DA0055B678 /* AddSubjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MJ777Q76VF;
 				INFOPLIST_FILE = BrickBreaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenduckien.BrickBreaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MJ777Q76VF;
 				INFOPLIST_FILE = BrickBreaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nguyenduckien.BrickBreaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				07B344B11EF0E39800F50692 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
